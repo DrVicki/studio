@@ -11,6 +11,23 @@ import { Download, Github } from 'lucide-react';
 import { nanoid } from 'nanoid';
 import { InitialMessage } from '@/components/initial-message';
 import { generateResumeSectionAction } from '@/lib/actions';
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyBru3YLW0p20Q5MIEWKmd56h0_QyNH4QYk",
+  authDomain: "resumeflow-ai-f7y4g.firebaseapp.com",
+  projectId: "resumeflow-ai-f7y4g",
+  storageBucket: "resumeflow-ai-f7y4g.firebasestorage.app",
+  messagingSenderId: "1013413206218",
+  appId: "1:1013413206218:web:23f46a958402e0c1c67c33"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
 
 const initialResumeData: ResumeData = {
   personalInfo: {
