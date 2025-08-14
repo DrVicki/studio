@@ -1,5 +1,14 @@
 # Firebase Studio
 
-This is a NextJS starter in Firebase Studio.
+# ResumeFlow AI
 
-To get started, take a look at src/app/page.tsx.
+This is an AI Assistant created in Firebase Studio, to promt the users for information to create a resume.
+
+***Try it out!***
+
+
+[ResumeFlowAI](https://resumeflowai.netlify.app/)
+
+Thanks,
+
+Dr. Vicki
